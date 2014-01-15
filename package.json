@@ -1,0 +1,15 @@
+{
+  "name": "rns-bootstrap",
+  "version": "1.0.0",
+  "description": "Twitter Bootstrap with RNS branding",
+  "repository": "",
+  "author": "David Herrera",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-recess": "~0.4.0"
+  }
+}

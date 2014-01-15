@@ -1,0 +1,25 @@
+//
+// Navbar
+// --------------------------------------------------
+
+// Links in inverse navbars should underline on hover on as the active link
+
+.navbar-inverse {
+
+	.navbar-nav {
+		> li > a  {
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+		> .active > a {
+			&,
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+name: Religion News Service Styleguide
+markdown: redcarpet
+pygments: true
+
+# Server
+exclude: [".editorconfig", ".gitignore", "bower.json", "bower_components", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]

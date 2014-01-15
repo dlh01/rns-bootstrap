@@ -1,0 +1,23 @@
+---
+title: Style Guide
+layout: default
+---
+
+<h1>Contents</h1>
+
+<ul>
+    <li><a href="./markup.html">Markup</a>: Basic markup with default typographic styles</li>
+    <li><a href="./components.html">RNS components</a>: Our reusable combinations of styles</li>
+    <li><a href="./bs-components.html">Bootstrap components</a>: The core Bootstrap library</li>
+</ul>
+
+<h2>Credits</h2>
+
+<ul>
+    <li><a href="http://barebones.paulrobertlloyd.com/">Barebones, by Paul Robert Lloyd</a></li>
+</ul>
+
+<h2>Project README</h2>
+
+{% capture sidebar %}{% include README.md %}{% endcapture %}
+{{ sidebar | markdownify }}

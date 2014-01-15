@@ -1,0 +1,21 @@
+{
+  "name": "rns-bootstrap",
+  "version": "1.0.0",
+  "description": "Twitter Bootstrap with RNS branding",
+  "authors": [
+    "David Herrera"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.religionnews.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
